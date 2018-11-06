@@ -23,6 +23,10 @@ import java.util.List;
 @Loggable
 public class CatalogService implements Serializable {
 
+
+//modification
+    private String modif;
+
     // ======================================
     // =             Attributes             =
     // ======================================
@@ -40,6 +44,8 @@ public class CatalogService implements Serializable {
 
         return em.find(Category.class, categoryId);
     }
+
+
 
     public Category findCategory(String categoryName) {
         if (categoryName == null)
