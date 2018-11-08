@@ -47,7 +47,9 @@ public class DBPopulator {
     @Inject
     private CatalogService catalogService;
     private String ousmanebarry;
-    private String saliou dioop;
+    private String saliou aboo;
+    private diongama;
+    
     
     private int monage;
 
