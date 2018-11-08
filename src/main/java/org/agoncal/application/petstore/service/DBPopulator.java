@@ -49,7 +49,8 @@ public class DBPopulator {
     private String ousmanebarry;
     private String saliou aboo;
     private diongama;
-    
+    private 
+    String
     
     private int monage;
 
