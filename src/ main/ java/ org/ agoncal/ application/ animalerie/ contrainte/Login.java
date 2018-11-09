@@ -19,18 +19,21 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
  */
 
 @NotNull
-@Size(min = 1)
+@Size(min = 1, max = 10)
 @Target({METHOD, FIELD})
 @Retention(RUNTIME)
 @Constraint(validatedBy = {})
 @Documented
-public @interface NotEmpty {
+//--------------ajout de commaites
+public @interface Login {
+
+   //
 
     // ======================================
     // =             Attributes             =
     // ======================================
 
-    String message() default "validator.notEmpty";
+    String message() default "{validator.invalidLogin}";
 
     Class<?>[] groups() default {};
 
