@@ -24,7 +24,10 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 @Retention(RUNTIME)
 @Constraint(validatedBy = {})
 @Documented
+//--------------ajout de commaites
 public @interface Login {
+
+   //
 
     // ======================================
     // =             Attributes             =
